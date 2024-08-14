@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/styleContact.css">
+    <title>Entre em contato conosco</title>
+    <link rel="icon" href="../assets/title-icon.png">
+  </head>
+  <body>
+    <div class="background-form"></div>
+    <header>
+      <img class="logo" src="../assets/molbra-logo.png" alt="logo molbra"/>
+      <nav class="links">
+        <a id="home" class="link" href="../index.html">Home</a>
+        <a id="galery" class="link" href="./galery.html">Galeria</a>
+        <a id="contact" class="link" href="./contact.html">Contato</a>
+      </nav>
+      <div class="social-media">
+        <a href="https://www.facebook.com/molbra" target="_blank"><img id="face"
+            src="../assets/face.png" alt="logo facebook"/></a>
+        <a href="https://www.instagram.com/molbrarevest/" target="_blank"><img
+            id="insta"
+            src="../assets/insta.png" alt="logo instagram"/></a>
+        <a
+          href="https://wa.me/5545991216070?text=Ol%C3%A1%2C%20preciso%20de%20um%20or%C3%A7amento%20para%20minha%20obra..."
+          target="_blank"><img
+            id="whatsapp" src="../assets/whatsapp.png" alt="logo whatsapp"/></a>
+      </div>
+    </header>
+
+    <section class="service-section">
+      <p><b>Horário de atendimento:</b></p>
+      <p>Segunda à sexta 8:00 as 12:00 e 13:30 às 18:00</p>
+      <p>Sabados das 9:00 as 12:00</p>
+    </section>
+
+    <main>
+      <a href="tel:+554530385770" target="_blank"><div id="fone-div"
+          class="contacts-div">
+          <img src="../assets/fone.png"/>
+          <p>TELEFONE</p>
+          <p>(45) 3038-5770</p>
+        </div>
+        <a target="_blank"
+          href="https://wa.me/5545991216070?text=Ol%C3%A1%2C%20preciso%20de%20um%20or%C3%A7amento%20para%20minha%20obra..."><div
+            id="whatsapp-div" class="contacts-div">
+            <img src="../assets/whatsapp1.png"/>
+            <p>WHATSAPP</p>
+            <p>(45) 9 9121-6070</p>
+          </div></a>
+        <div id="email-div" class="contacts-div email-div" onclick="showForm()">
+          <img src="../assets/email.png"/>
+          <p>E-MAIL</p>
+          <p>Clique para enviar</p>
+        </div>
+      </main>
+
+      <section class="form-sec">
+        <form class="form">
+          <button type="button" class="close" onclick="closeForm()">X</button>
+          <h4>Peça um orçamento</h4>
+          <label>Nome:<input type="text" class="nome-client" placeholder="Digite seu Nome aqui..."/></label>
+          <label>Telefone:<input type="tel" class="tel-client" placeholder="Digite seu telefone aqui..."/></label>
+          <label>E-mail:<input type="email" class="email-client" placeholder="Digite seu e-mail aqui..."/></label>
+          <textarea>Nos dê mais detalhes sobre o material que precisa...</textarea>
+          <button type="submit">Solicitar orçamento</button>
+        </form>
+      </section>
+
+      <footer>
+        <h2>Visite a Nossa Loja</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1075.473354020151!2d-53.46433618661626!3d-24.950915537514557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f3d40f2135fc8b%3A0x74087c34f7bfc954!2sR.%20Mal.%20C%C3%A2ndido%20Rondon%2C%202650%20-%20Centro%2C%20Cascavel%20-%20PR%2C%2085810-120!5e0!3m2!1spt-BR!2sbr!4v1722524218009!5m2!1spt-BR!2sbr"
+          width="100%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <h2>Conheça a Nossa Fábrica</h2>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1807.23919739345!2d-53.63167865896759!3d-25.05176970240608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1722523829191!5m2!1spt-BR!2sbr"
+          width="100%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <p class="developer">Desenvolvido por Daniel Tiozo</p>
+      </footer>
+    </body>
+    <script src="../js/script.js"></script>
+  </html>
