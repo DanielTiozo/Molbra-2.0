@@ -137,3 +137,12 @@ form textarea{
     height: 150px;
     color: #5b5b5b;
 }
+
+.background-form{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    visibility: hidden;
+    background-color: #00000057;
+}

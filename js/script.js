@@ -43,6 +43,8 @@ const moveItems = document.querySelector("body")
 const form = document.querySelector(".form")
 const formDiv = document.querySelector(".form-sec")
 const backForm = document.querySelector(".background-form")
+const imageOpacity = document.querySelector(".galery")
+const expectationOpacity = document.querySelector(".expectation")
 
 function showProduct(id) {
     menuProducts.map(piso => {
@@ -55,16 +57,20 @@ function showProduct(id) {
     })
 }
 
-function showForm(){
+const showForm = () => {
     formDiv.style.left = "49.6%";
     form.style.left = "50%";
     backForm.style.visibility = "visible";
 }
 
-function closeForm() {
+const closeForm = () => {
     formDiv.style.left = "-300px";
     form.style.left = "-300px";
     backForm.style.visibility = "hidden";
+}
+
+function hoverGaleryImg() {
+    alert("atenção")
 }
 
 // function mouseMove(){
@@ -76,4 +82,7 @@ massiveButton.addEventListener("click", () => showProduct(massiveButton.id))
 edgeButton.addEventListener("click", () => showProduct(edgeButton.id))
 pisogramButton.addEventListener("click", () => showProduct(pisogramButton.id))
 accessoriesButton.addEventListener("click", () => showProduct(accessoriesButton.id))
+imageOpacity.addEventListener("click", hoverGaleryImg)
+expectationOpacity.addEventListener("click", hoverGaleryImg)
+
 // moveItems.addEventListener("mousemove", mouseMove)
