@@ -34,17 +34,12 @@ const menuProducts = [
 const img = document.querySelector(".img-floor")
 const type = document.querySelector(".type-floor")
 const info = document.querySelector(".info-floor")
+
 const drainingButton = document.querySelector("#draining")
 const massiveButton = document.querySelector("#massive")
 const edgeButton = document.querySelector("#edge")
 const pisogramButton = document.querySelector("#pisogram")
 const accessoriesButton = document.querySelector("#accessories")
-const moveItems = document.querySelector("body")
-const form = document.querySelector(".form")
-const formDiv = document.querySelector(".form-sec")
-const backForm = document.querySelector(".background-form")
-const imageOpacity = document.querySelector(".galery")
-const expectationOpacity = document.querySelector(".expectation")
 
 function showProduct(id) {
     menuProducts.map(piso => {
@@ -57,32 +52,8 @@ function showProduct(id) {
     })
 }
 
-const showForm = () => {
-    formDiv.style.left = "49.6%";
-    form.style.left = "50%";
-    backForm.style.visibility = "visible";
-}
-
-const closeForm = () => {
-    formDiv.style.left = "-300px";
-    form.style.left = "-300px";
-    backForm.style.visibility = "hidden";
-}
-
-function hoverGaleryImg() {
-    alert("atenção")
-}
-
-// function mouseMove(){
-//     moveItems.style.transform = "translate3d(1.8px, -6.6px, 0px)"
-// }
-
 drainingButton.addEventListener("click", () => showProduct(drainingButton.id))
 massiveButton.addEventListener("click", () => showProduct(massiveButton.id))
 edgeButton.addEventListener("click", () => showProduct(edgeButton.id))
 pisogramButton.addEventListener("click", () => showProduct(pisogramButton.id))
 accessoriesButton.addEventListener("click", () => showProduct(accessoriesButton.id))
-imageOpacity.addEventListener("click", hoverGaleryImg)
-expectationOpacity.addEventListener("click", hoverGaleryImg)
-
-// moveItems.addEventListener("mousemove", mouseMove)

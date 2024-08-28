@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/styleContact.css">
+    <link rel="stylesheet" href="../css/contact.css">
     <title>Entre em contato conosco</title>
     <link rel="icon" href="../assets/title-icon.png">
   </head>
@@ -19,6 +19,20 @@
         <a id="galery" class="link" href="./galery.html">Galeria</a>
         <a id="contact" class="link" href="./contact.html">Contato</a>
       </nav>
+
+      <nav class="portable-links">
+        <div class="container-active-portable-links">
+          <div class="active-portable-links"></div>
+          <div class="active-portable-links"></div>
+          <div class="active-portable-links"></div>
+        </div>
+        <a id="home-portable" class="portable-link" href="../index.html">Home</a>
+        <a id="galery-portable" class="portable-link"
+          href="./galery.html">Galeria</a>
+        <a id="contact-portable" class="portable-link"
+          href="./contact.html">Contato</a>
+      </nav>
+
       <div class="social-media">
         <a href="https://www.facebook.com/molbra" target="_blank"><img id="face"
             src="../assets/face.png" alt="logo facebook"/></a>
@@ -60,16 +74,15 @@
       </main>
 
       <section class="form-sec">
-        <form class="form">
+        <form class="form" action="https://formcarry.com/s/A66aS5pW2bL" method="POST" enctype="multipart/form-data">
           <button type="button" class="close" onclick="closeForm()">X</button>
           <h4>Peça um orçamento</h4>
-          <label>Nome:<input type="text" class="nome-client" placeholder="Digite
-              seu Nome aqui..."/></label>
-          <label>Telefone:<input type="tel" class="tel-client"
+          <label>Nome:<input type="text" class="nome-client" name="nome" placeholder="Digite seu Nome aqui..."/></label>
+          <label>Telefone:<input type="tel" name="tel" class="tel-client"
               placeholder="Digite seu telefone aqui..."/></label>
-          <label>E-mail:<input type="email" class="email-client"
+          <label>E-mail:<input type="email" name="email" class="email-client"
               placeholder="Digite seu e-mail aqui..."/></label>
-          <textarea>Nos dê mais detalhes sobre o material que precisa...</textarea>
+          <textarea name="material">Nos dê mais detalhes sobre o material que precisa...</textarea>
           <button type="submit">Solicitar orçamento</button>
         </form>
       </section>
@@ -99,5 +112,6 @@
         <p class="developer">Desenvolvido por Daniel Tiozo</p>
       </footer>
     </body>
-    <script src="../js/script.js"></script>
+    <script src="../js/contact.js"></script>
+    <script src="../js/all.js"></script>
   </html>
