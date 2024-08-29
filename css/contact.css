@@ -59,7 +59,7 @@ section{
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    top: 8%;
+    top: 10%;
     left: -1000px;
     transition: 1s;
 }
