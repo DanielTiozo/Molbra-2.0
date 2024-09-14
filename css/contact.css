@@ -135,6 +135,7 @@ form input, form button, form textarea{
 
 form textarea{
     height: 130px;
+    width: 220px;
     color: #5b5b5b;
 }
 
