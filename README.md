@@ -1,6 +1,5 @@
-<h1>Conversor de moeda</h1>
-<h2>Projeto desenvolvido com <a href="https://rodolfomori.com.br/devclub/">DevClub</a> </h2>
-<p>Pagina para escolher moeda para converter e para qual moeda fazer a conversão e a pagina mostrar o resultado</p>
+<h1>Molbra 2.0</h1>
+<p>Pagina para apresentar empresa que fabrica pisos drenantes, produtos e contato para comunicação com cliente</p>
 <h2>Tecnologias utilizadas</h2>
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
 <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white"/>
